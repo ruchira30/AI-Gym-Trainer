@@ -5,7 +5,7 @@ from os import listdir, chdir
 from matplotlib import pyplot as plt
 from tkinter import Tk, Toplevel, ttk, filedialog, CENTER, Button, Frame, Canvas, Label, Scrollbar, LEFT, RIGHT, BOTH, X, Y, HORIZONTAL, Scale, Entry, BOTTOM
 import numpy as np
-#from tqdm import tqdm
+from tqdm import tqdm
 from pygame import init, mixer, USEREVENT, event
 from keyboard import add_hotkey
 from threading import Thread
